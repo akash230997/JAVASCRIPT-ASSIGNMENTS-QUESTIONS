@@ -10,7 +10,7 @@
 // Return the result after adding two numbers.
 
 // let firstNumb = 20 , secondNumb = 30;
-
+// By Fat Arrow Function :
 const AddtwoNumbers = (firstNumb = 10, secondNumb = 5) => {
     return (firstNumb + secondNumb);
 }
