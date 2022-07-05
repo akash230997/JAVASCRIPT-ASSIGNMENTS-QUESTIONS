@@ -7,11 +7,26 @@
 
 
 const findSum = (n) => {
-    let value = 0; 
-    while(n < value*2){
-
+    let sum = 0; 
+    for(vi =0; vi <= n; vi +=2){
+        sum = sum + vi;
     }
-    return value;
+    return sum;
 };
 
 console.log(findSum(6));
+
+// function evenSum(n) {
+//     let curr = 2, sum = 0;
+
+//     // sum of first n even numbers
+//     for (let i = 1; i <= n; i++) {
+//         sum += curr;
+
+//         // next even number
+//         curr += 2;
+//     }
+
+//     // required sum
+//     return sum;
+// }

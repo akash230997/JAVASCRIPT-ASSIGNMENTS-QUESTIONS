@@ -10,13 +10,12 @@
 // Sample Output
 // 2
 
-
 const Find_Five = (N) => {
     let c = 0;
-    while(N > 0){
+    while (N > 0) {
         r = N % 10;
         N = parseInt(N / 10);
-        if (r == 5){
+        if (r == 5) {
             c++;
         }
     }
@@ -24,3 +23,17 @@ const Find_Five = (N) => {
 };
 
 console.log(Find_Five(345654));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
