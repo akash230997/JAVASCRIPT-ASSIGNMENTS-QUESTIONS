@@ -11,4 +11,4 @@ var Check_Leap = (year) => {
     }
 };
 
-console.log(Check_Leap(1900));
+console.log(Check_Leap(2020));

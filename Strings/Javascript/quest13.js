@@ -33,7 +33,7 @@ var Count_Consonants = (S) => {
         if (vowels.indexOf(letter) == -1) {
             count = count + 1;
         }
-    }
+    }   
     return count;
 };
 
