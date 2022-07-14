@@ -6,3 +6,9 @@
 
 // Output Format:Your task is to create a method inside this object named as setter such that this method will print the value of the data member named as a name.
 
+
+function Check(obj1) {
+    obj1.setter = function () {
+        console.log(this.name);
+    };
+}
