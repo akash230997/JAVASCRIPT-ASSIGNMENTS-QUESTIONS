@@ -6,9 +6,10 @@ function Check(obj1) {
     let param = Object.entries(obj1).length >= 1 ? ("true") : ("false");
     return (param);
 }
-
+console.log(Check("1"));
 // Sample Input
 // 1
 
 // Sample Output
 // true
+
